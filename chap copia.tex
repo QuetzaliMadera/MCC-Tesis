@@ -1,0 +1,163 @@
+%% This is an example first chapter.  You should put chapter/appendix that you
+%% write into a separate file, and add a line \include{yourfilename} to
+%% main.tex, where `yourfilename.tex' is the name of the chapter/appendix file.
+%% You can process specific files by typing their names in at the 
+%% \files=
+%% prompt when you run the file main.tex through LaTeX.
+
+\chapter{Introducci\'on}
+
+El contenido textual es una parte fundamental para la publicidad en internet. Una buena elección de palabras es indispensable para la creación de un texto publicitario, de esto depende el sentido que se da al texto y afecta positiva o negativamente en el interés de los consumidores. Este trabajo presenta un método para la optimización de textos publicitarios mediante técnicas de computación evolutiva interactiva. El texto publicitario se divide en bloques de texto que al combinarlos se obtiene una gran cantidad de versiones de ese anuncio. Cada versión es representada por un vector que tiene la función de un cromosoma. Las distintas versiones del anuncio fueron presentadas a usuarios para que ellos eligieran la versión que más les atraía, las versiones fueron evolucionando en una plataforma llamada EvoSpace para obtener mediante la evolución una combinación que fuese más atractiva para la mayoría de los usuarios. Para com-probar este método se presento a los usuarios un anuncio de auto creado por Chevrolet, un anuncio con buena calificación obtenido con nuestro método y un anuncio con baja calificación. Los resultados obtenidos fueron muy satisfactorios superando en preferencia del usuario el anuncio optimizado al anuncio creado por el experto.
+
+\section{Descripción de la investigación}
+
+Cuando se trata de comercio electrónico el texto toma un papel muy importante porque a través de el llevas la información del articulo en venta al consumidor.[3] El texto también puede ayudar a convencer al lector de comprar el producto que se anuncia. Cuando la persona encargada de el anuncio publicitario es un experto en el área, el producto obtiene mejores respuestas de los consumidores. La mezcla de las palabras o frases (bloques de texto) que los expertos deciden utilizar al escribir el texto es importante, porque esta mezcla puede ser la decisiva que provoque que el consumidor adquiera ese producto. Si un no experto desea escribir un anuncio publicitario seria muy difícil para él elegir la combinación correcta de los bloques de texto que serán de agrado para la mayoría de los consumidores, lo mas factible seria escribir un texto que encierre el mensaje que quiere transmitir y dárselo a un experto para que este lo optimice. 
+
+
+Los algoritmos evolutivos son comúnmente usados para resolver problemas de optimización [8] y es por eso que recurrimos a este método cuando nos interesamos en optimizar anuncios publicitarios. Creemos que si un grupo de personas puede evaluar distintas combinaciones del mismo anuncio, a través de varias generaciones se puede encontrar el anuncio optimo que sea del agrado de la mayoría de los consumidores.
+
+\section{Objetivo General de la Investigación}
+
+Se propone en este trabajo: Adaptar la plataforma EvoSpace-Interactivo para que optimice textos, reescribiendo ciertos bloques de texto, con el fin de conseguir un texto que persuada más a comprar el producto, sea recordado y reconocido con mayor facilidad para la mayoría de  los usuarios.
+
+Proponemos conseguir esta optimización a través de técnicas de computación evolutiva interactiva.
+
+\section{Específicos de la Investigación}
+
+Los objetivos específicos a desarrollar en este trabajo son los siguientes:
+
+1. Adaptar la plataforma EvoSpace-Interactivo para optimizar textos publicitarios mediante técnicas de computación evolutiva interactiva.
+
+2. Adaptar EvoSpace-Interactivo para la optimización de los textos.
+3. Comprobar que se puede optimizar el texto a través de técnicas de computación evolutiva interactiva para una población
+4. Validar los resultados de los textos generados con nuestro método.
+
+\section{Estructura del Documento de Tesis}
+
+En el capítulo 2, se describe detalladamente el problema, las soluciones que existen actualmente y la solución propuesta.
+
+En el capítulo 3, se presenta algunos conceptos básicos para entender esta investigación y también partes esenciales que componen este proyecto como la plataforma utilizada que es una herramienta crucial para la implementación del algoritmo genético utilizado en esta investigación.
+
+
+En el capítulo 4, se incluyen los antecedentes de métodos utilizados para optimización de los distintos tipos de publicidad en internet,  ya que estos métodos son el fundamento para el desarrollo de este método propuesto.
+
+
+En el capítulo 5, se propone una arquitectura general para la optimización de textos, se describen y justifican los principales componentes y sus interacciones.
+
+En el capítulo 6 se detalla la implementación y adaptación de la plataforma EvoSpace-Interactivo, especificando las modificaciones realizadas. Se inicia el capitulo con una descripción breve del funcionamiento de de EvoSpace-Interactivo y la razón por la que es ideal para nuestra investigación.
+
+En el capítulo 7 , se muestran los distintos experimentos realizado y sus  resultados.
+
+En el capítulo 8 se discuten los resultados y conclusiones sobre el trabajo expuesto, además se presentan propuestas para trabajos futuros.
+
+\section{Integer optimizations}
+
+As well as the floating point optimizations described above, there are
+also integer optimizations that can be used in the $\mu$FPU.  In concert
+with the floating point optimizations, these can provide a significant
+speedup.  
+
+\subsection{Conversion to fixed point}
+
+Integer operations are much faster than floating point operations; if it is
+possible to replace floating point operations with fixed point operations,
+this would provide a significant increase in speed.
+
+This conversion can either take place automatically or or based on a
+specific request from the programmer.  To do this automatically, the
+compiler must either be very smart, or play fast and loose with the accuracy
+and precision of the programmer's variables.  To be ``smart'', the computer
+must track the ranges of all the floating point variables through the
+program, and then see if there are any potential candidates for conversion
+to floating point.  This technique is discussed further in
+section~\ref{range-tracking}, where it was implemented.
+
+The other way to do this is to rely on specific hints from the programmer
+that a certain value will only assume a specific range, and that only a
+specific precision is desired.  This is somewhat more taxing on the
+programmer, in that he has to know the ranges that his values will take at
+declaration time (something normally abstracted away), but it does provide
+the opportunity for fine-tuning already working code.
+
+Potential applications of this would be simulation programs, where the
+variable represents some physical quantity; the constraints of the physical
+system may provide bounds on the range the variable can take.
+\subsection{Small Constant Multiplications}
+
+One other class of optimizations that can be done is to replace
+multiplications by small integer constants into some combination of
+additions and shifts.  Addition and shifting can be significantly faster
+than multiplication.  This is done by using some combination of
+\begin{eqnarray*}
+a_i & = & a_j + a_k \\
+a_i & = & 2a_j + a_k \\
+a_i & = & 4a_j + a_k \\
+a_i & = & 8a_j + a_k \\
+a_i & = & a_j - a_k \\
+a_i & = & a_j \ll m \mbox{shift}
+\end{eqnarray*}
+instead of the multiplication.  For example, to multiply $s$ by 10 and store
+the result in $r$, you could use:
+\begin{eqnarray*}
+r & = & 4s + s\\
+r & = & r + r
+\end{eqnarray*}
+Or by 59:
+\begin{eqnarray*}
+t & = & 2s + s \\
+r & = & 2t + s \\
+r & = & 8r + t
+\end{eqnarray*}
+Similar combinations can be found for almost all of the smaller
+integers\footnote{This optimization is only an ``optimization'', of course,
+when the amount of time spent on the shifts and adds is less than the time
+that would be spent doing the multiplication.  Since the time costs of these
+operations are known to the compiler in order for it to do scheduling, it is
+easy for the compiler to determine when this optimization is worth using.}.
+\cite{magenheimer:precision}
+
+\section{Other optimizations}
+
+\subsection{Low-level parallelism}
+
+The current trend is towards duplicating hardware at the lowest level to
+provide parallelism\footnote{This can been seen in the i860; floating point
+additions and multiplications can proceed at the same time, and the RISC
+core be moving data in and out of the floating point registers and providing
+flow control at the same time the floating point units are active. \cite{byte:i860}}
+
+Conceptually, it is easy to take advantage to low-level parallelism in the
+instruction stream by simply adding more functional units to the $\mu$FPU,
+widening the instruction word to control them, and then scheduling as many
+operations to take place at one time as possible.
+
+However, simply adding more functional units can only be done so many times;
+there is only a limited amount of parallelism directly available in the
+instruction stream, and without it, much of the extra resources will go to
+waste.  One process used to make more instructions potentially schedulable
+at any given time is ``trace scheduling''.  This technique originated in the
+Bulldog compiler for the original VLIW machine, the ELI-512.
+\cite{ellis:bulldog,colwell:vliw}  In trace scheduling, code can be
+scheduled through many basic blocks at one time, following a single
+potential ``trace'' of program execution.  In this way, instructions that
+{\em might\/} be executed depending on a conditional branch further down in
+the instruction stream are scheduled, allowing an increase in the potential
+parallelism.  To account for the cases where the expected branch wasn't
+taken, correction code is inserted after the branches to undo the effects of
+any prematurely executed instructions.
+
+\subsection{Pipeline optimizations}
+
+In addition to having operations going on in parallel across functional
+units, it is also typical to have several operations in various stages of
+completion in each unit.  This pipelining allows the throughput of the
+functional units to be increased, with no increase in latency.
+
+There are several ways pipelined operations can be optimized.  On the
+hardware side, support can be added to allow data to be recirculated back
+into the beginning of the pipeline from the end, saving a trip through the
+registers.  On the software side, the compiler can utilize several tricks to
+try to fill up as many of the pipeline delay slots as possible, as
+seendescribed by Gibbons. \cite{gib86}
+
+

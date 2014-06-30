@@ -1,0 +1,126 @@
+\newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
+  \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
+\begin{thebibliography}{10}
+
+\bibitem{back1996evolutionary}
+Thomas Back.
+\newblock {\em Evolutionary algorithms in theory and practice}.
+\newblock Oxford Univ. Press, 1996.
+
+\bibitem{choi2002antecedents}
+Sejung~Marina Choi and Nora~J Rifon.
+\newblock Antecedents and consequences of web advertising credibility: A study
+  of consumer response to banner ads.
+\newblock {\em Journal of Interactive Advertising}, 3(1):12--24, 2002.
+
+\bibitem{dao2012novel}
+Tuan~Hung Dao, Seung~Ryul Jeong, and Hyunchul Ahn.
+\newblock A novel recommendation model of location-based advertising:
+  Context-aware collaborative filtering using ga approach.
+\newblock {\em Expert Systems with Applications}, 39(3):3731--3739, 2012.
+
+\bibitem{fan2011blogger}
+Teng-Kai Fan and Chia-Hui Chang.
+\newblock Blogger-centric contextual advertising.
+\newblock {\em Expert Systems with Applications}, 38(3):1777--1788, 2011.
+
+\bibitem{garcia2013evospace}
+Mario Garc{\'\i}a-Valdez, Leonardo Trujillo, Francisco~Fern{\'a}ndez de~Vega,
+  Juan J~Merelo Guerv{\'o}s, and Gustavo Olague.
+\newblock {\em EvoSpace: a distributed evolutionary platform based on the tuple
+  space model}.
+\newblock Springer, 2013.
+
+\bibitem{hsieh2011different}
+Yu-Chen Hsieh and Kuo-Hsiang Chen.
+\newblock How different information types affect viewer’s attention on
+  internet advertising.
+\newblock {\em Computers in Human Behavior}, 27(2):935--945, 2011.
+
+\bibitem{jong2006evolutionary}
+KAD Jong.
+\newblock Evolutionary computation. a unified approach, 2006.
+
+\bibitem{kazienko2007adrosa}
+Przemys{\l}aw Kazienko and Micha{\l} Adamski.
+\newblock Adrosa—adaptive personalization of web advertising.
+\newblock {\em Information Sciences}, 177(11):2269--2295, 2007.
+
+\bibitem{keng2013can}
+Ching-Jui Keng and Chia-Chien Liu.
+\newblock Can avatar and self-referencing really increase the effects of online
+  2-d and 3-d advertising?
+\newblock {\em Computers in Human Behavior}, 29(3):791--802, 2013.
+
+\bibitem{kowaliw2012promoting}
+Taras Kowaliw, Alan Dorin, Jon McCormack, et~al.
+\newblock Promoting creative design in interactive evolutionary computation.
+\newblock {\em IEEE transactions on evolutionary computation}, 16(4):523, 2012.
+
+\bibitem{kulkarni2014choose}
+Prachi Kulkarni.
+\newblock How to choose the best content writing services for your business.
+\newblock {\em Lekhsolutions Blog}, 2014.
+
+\bibitem{lewis2013customer}
+Michael Lewis, Kimberly~A Whitler, and JoAndrea Hoegg.
+\newblock Customer relationship stage and the use of picture-dominant versus
+  text-dominant advertising: A field study.
+\newblock {\em Journal of Retailing}, 89(3):263--280, 2013.
+
+\bibitem{madera2014ad}
+Quetzali Madera, Mario Garc{\'\i}a-Valdez, and Alejandra Mancilla.
+\newblock Ad text optimization using interactive evolutionary computation
+  techniques.
+\newblock In {\em Recent Advances on Hybrid Approaches for Designing
+  Intelligent Systems}, pages 671--680. Springer, 2014.
+
+\bibitem{malcolm2008approach}
+James~A Malcolm and Peter~CR Lane.
+\newblock An approach to detecting article spinning.
+\newblock In {\em Proceedings of the Third International Conference on
+  Plagiarism}, 2008.
+
+\bibitem{mcquarrie1999visual}
+Edward~F McQuarrie and David~Glen Mick.
+\newblock Visual rhetoric in advertising: Text-interpretive, experimental, and
+  reader-response analyses.
+\newblock {\em Journal of consumer research}, 26(1):37--54, 1999.
+
+\bibitem{nielsen1997users}
+Jakob Nielsen.
+\newblock How users read on the web.
+\newblock {\em Jakob Nielsen’s Alertbox}, 1997.
+
+\bibitem{parisi2004modelos}
+F~Parisi et~al.
+\newblock Modelos de algoritmos geneticos y redes neuronales en la prediccion
+  del signo de variacion del ipsa.
+\newblock 2004.
+
+\bibitem{romero2014using}
+JC~Romero and M~Garc{\'\i}a-Valdez.
+\newblock Using a graph based database to support collaborative interactive
+  evolutionary systems.
+\newblock In {\em Recent Advances on Hybrid Approaches for Designing
+  Intelligent Systems}, pages 581--591. Springer, 2014.
+
+\bibitem{takagi2001interactive}
+Hideyuki Takagi.
+\newblock Interactive evolutionary computation: Fusion of the capabilities of
+  ec optimization and human evaluation.
+\newblock {\em Proceedings of the IEEE}, 89(9):1275--1296, 2001.
+
+\bibitem{wu2013position}
+Zongda Wu, Guandong Xu, Chenglang Lu, Enhong Chen, Yanchun Zhang, and Hong
+  Zhang.
+\newblock Position-wise contextual advertising: Placing relevant ads at
+  appropriate positions of a web page.
+\newblock {\em Neurocomputing}, 120:524--535, 2013.
+
+\bibitem{zheng2012ontology}
+Hai-Tao Zheng, Jin-Yuan Chen, and Yong Jiang.
+\newblock An ontology-based approach to chinese semantic advertising.
+\newblock {\em Information Sciences}, 216:138--154, 2012.
+
+\end{thebibliography}
