@@ -2,10 +2,28 @@
   \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
 \begin{thebibliography}{10}
 
+\bibitem{anagnostopoulos2007just}
+Aris Anagnostopoulos, Andrei~Z Broder, Evgeniy Gabrilovich, Vanja Josifovski,
+  and Lance Riedel.
+\newblock Just-in-time contextual advertising.
+\newblock In {\em Proceedings of the sixteenth ACM conference on Conference on
+  information and knowledge management}, pages 331--340. ACM, 2007.
+
 \bibitem{back1996evolutionary}
 Thomas Back.
 \newblock {\em Evolutionary algorithms in theory and practice}.
 \newblock Oxford Univ. Press, 1996.
+
+\bibitem{brin1998anatomy}
+Sergey Brin and Lawrence Page.
+\newblock The anatomy of a large-scale hypertextual web search engine.
+\newblock {\em Computer networks and ISDN systems}, 30(1):107--117, 1998.
+
+\bibitem{caldwell1991tracking}
+Craig Caldwell and Victor~S Johnston.
+\newblock Tracking a criminal suspect through" face-space" with a genetic
+  algorithm.
+\newblock In {\em ICGA}, volume~4, pages 416--421, 1991.
 
 \bibitem{choi2002antecedents}
 Sejung~Marina Choi and Nora~J Rifon.
@@ -19,10 +37,15 @@ Tuan~Hung Dao, Seung~Ryul Jeong, and Hyunchul Ahn.
   Context-aware collaborative filtering using ga approach.
 \newblock {\em Expert Systems with Applications}, 39(3):3731--3739, 2012.
 
-\bibitem{fan2011blogger}
+\bibitem{dawkins1988blind}
+Richard Dawkins.
+\newblock The blind watchmaker. 1986.
+\newblock {\em Harlow Logman}, 1988.
+
+\bibitem{fan2010sentiment}
 Teng-Kai Fan and Chia-Hui Chang.
-\newblock Blogger-centric contextual advertising.
-\newblock {\em Expert Systems with Applications}, 38(3):1777--1788, 2011.
+\newblock Sentiment-oriented contextual advertising.
+\newblock {\em Knowledge and Information Systems}, 23(3):321--344, 2010.
 
 \bibitem{garcia2013evospace}
 Mario Garc{\'\i}a-Valdez, Leonardo Trujillo, Francisco~Fern{\'a}ndez de~Vega,
@@ -30,6 +53,17 @@ Mario Garc{\'\i}a-Valdez, Leonardo Trujillo, Francisco~Fern{\'a}ndez de~Vega,
 \newblock {\em EvoSpace: a distributed evolutionary platform based on the tuple
   space model}.
 \newblock Springer, 2013.
+
+\bibitem{graf1995interactive}
+Jeanine Graf and Wolfgang Banzhaf.
+\newblock Interactive evolution of images.
+\newblock In {\em Evolutionary Programming}, pages 53--65, 1995.
+
+\bibitem{hill1992object}
+Andrew Hill, Christopher~J Taylor, and T~Cootes.
+\newblock Object recognition by flexible template matching using genetic
+  algorithms.
+\newblock In {\em Computer Vision—ECCV'92}, pages 852--856. Springer, 1992.
 
 \bibitem{hsieh2011different}
 Yu-Chen Hsieh and Kuo-Hsiang Chen.
@@ -52,6 +86,19 @@ Ching-Jui Keng and Chia-Chien Liu.
   2-d and 3-d advertising?
 \newblock {\em Computers in Human Behavior}, 29(3):791--802, 2013.
 
+\bibitem{kim2004determining}
+Soo-Min Kim and Eduard Hovy.
+\newblock Determining the sentiment of opinions.
+\newblock In {\em Proceedings of the 20th international conference on
+  Computational Linguistics}, page 1367. Association for Computational
+  Linguistics, 2004.
+
+\bibitem{kim2006automatic}
+Soo-Min Kim and Eduard Hovy.
+\newblock Automatic identification of pro and con reasons in online reviews.
+\newblock In {\em Proceedings of the COLING/ACL on Main conference poster
+  sessions}, pages 483--490. Association for Computational Linguistics, 2006.
+
 \bibitem{kowaliw2012promoting}
 Taras Kowaliw, Alan Dorin, Jon McCormack, et~al.
 \newblock Promoting creative design in interactive evolutionary computation.
@@ -68,24 +115,30 @@ Michael Lewis, Kimberly~A Whitler, and JoAndrea Hoegg.
   text-dominant advertising: A field study.
 \newblock {\em Journal of Retailing}, 89(3):263--280, 2013.
 
-\bibitem{madera2014ad}
-Quetzali Madera, Mario Garc{\'\i}a-Valdez, and Alejandra Mancilla.
-\newblock Ad text optimization using interactive evolutionary computation
-  techniques.
-\newblock In {\em Recent Advances on Hybrid Approaches for Designing
-  Intelligent Systems}, pages 671--680. Springer, 2014.
-
 \bibitem{malcolm2008approach}
 James~A Malcolm and Peter~CR Lane.
 \newblock An approach to detecting article spinning.
 \newblock In {\em Proceedings of the Third International Conference on
   Plagiarism}, 2008.
 
+\bibitem{mcelfresh2005method}
+Charles McElfresh, Paul Mineiro, and Michael Radford.
+\newblock Method and system for optimum placement of advertisements on a
+  webpage, June~14 2005.
+\newblock US Patent 6,907,566.
+
 \bibitem{mcquarrie1999visual}
 Edward~F McQuarrie and David~Glen Mick.
 \newblock Visual rhetoric in advertising: Text-interpretive, experimental, and
   reader-response analyses.
 \newblock {\em Journal of consumer research}, 26(1):37--54, 1999.
+
+\bibitem{meygret1992robust}
+Aim{\'e} Meygret, Martin~D Levine, and Gerhard Roth.
+\newblock Robust primitive extraction in a range image.
+\newblock In {\em Pattern Recognition, 1992. Vol. III. Conference C: Image,
+  Speech and Signal Analysis, Proceedings., 11th IAPR International Conference
+  on}, pages 193--196. IEEE, 1992.
 
 \bibitem{nielsen1997users}
 Jakob Nielsen.
@@ -105,18 +158,30 @@ JC~Romero and M~Garc{\'\i}a-Valdez.
 \newblock In {\em Recent Advances on Hybrid Approaches for Designing
   Intelligent Systems}, pages 581--591. Springer, 2014.
 
+\bibitem{secretan2008picbreeder}
+Jimmy Secretan, Nicholas Beato, David~B D~Ambrosio, Adelein Rodriguez, Adam
+  Campbell, and Kenneth~O Stanley.
+\newblock Picbreeder: evolving pictures collaboratively online.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 1759--1768. ACM, 2008.
+
+\bibitem{sims1991artificial}
+Karl Sims.
+\newblock {\em Artificial evolution for computer graphics}, volume~25.
+\newblock ACM, 1991.
+
 \bibitem{takagi2001interactive}
 Hideyuki Takagi.
 \newblock Interactive evolutionary computation: Fusion of the capabilities of
   ec optimization and human evaluation.
 \newblock {\em Proceedings of the IEEE}, 89(9):1275--1296, 2001.
 
-\bibitem{wu2013position}
-Zongda Wu, Guandong Xu, Chenglang Lu, Enhong Chen, Yanchun Zhang, and Hong
-  Zhang.
-\newblock Position-wise contextual advertising: Placing relevant ads at
-  appropriate positions of a web page.
-\newblock {\em Neurocomputing}, 120:524--535, 2013.
+\bibitem{trujillo2013fireworks}
+Leonardo Trujillo, Mario Garcia-Valdez, Francisco Fernandez-de Vega, and Juan-J
+  Merelo.
+\newblock Fireworks: Evolutionary art project based on evospace-interactive.
+\newblock In {\em Evolutionary Computation (CEC), 2013 IEEE Congress on}, pages
+  2871--2878. IEEE, 2013.
 
 \bibitem{zheng2012ontology}
 Hai-Tao Zheng, Jin-Yuan Chen, and Yong Jiang.

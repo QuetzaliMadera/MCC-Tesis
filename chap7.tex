@@ -9,7 +9,7 @@
 
 Inicialmente para comprobar este método se presentó a los usuarios una descripción de un anuncio de auto creado por Chevrolet y una descripción de una hamburguesa creada por Carl's Jr que eran comparados con dos anuncios creados por nuestro método, una descripción de un anuncio de un auto se comparaba con el anuncio de Chevrolet y una descripción de un anuncio de una hamburguesa se comparaba con el anuncio de Carl's Jr. Los resultados obtenidos fueron muy satisfactorios superando en preferencia del usuario el anuncio optimizado al anuncio creado por el experto. Con estos resultados pudimos darnos una idea del potencial de este método y continuar con las siguientes pruebas.
 
-
+\clearpage
 \section{El Método de Evaluación}
 
 En nuestro método de evaluación la medición de la eficiencia de un anuncio de texto se realizó mediante la comparación de una versión que resultó de la evolución de los textos, contra una versión construida por un experto. Para los experimentos, una persona especializada en un área relacionada con el marketing es considerado un experto.
@@ -30,6 +30,7 @@ El sitio web puede apreciarse en la Figura \ref{experimento}. El video se puede 
 \label{experimento}
 \end{figure}
 
+\clearpage
 \section{Resultados}
 
 La Tabla \ref{hamburgusa} presenta los resultados de los experimentos llevados a cabo utilizando el texto publicitario de la hamburguesa, mientras que la Tabla \ref{auto} se presentan los resultados del texto publicitario del automóvil.
@@ -63,6 +64,528 @@ Memoria & 32.6\% & 24\% \\
 Persuasion & 54\% & 46\% \\
 \end{tabular}
 \end{center}
-\caption{Resultados del experimento con el anuncio de el automovil}
+\caption{Resultados del experimento con el anuncio del automóvil}
 \label{auto}
+\end{table}
+
+\subsection{Tablas de resultados del anuncio del automóvil}
+
+%1
+
+\subsubsection{Nuestro Texto}
+
+Diseñamos este carro único, para ser la mejor forma de viajar con tus amigos. Por eso está fabricado con barras laterales contra accidentes. Puede incluir frenos inteligentes y bolsas de aire seguras. Tiene transmisión automática de 4 velocidades.
+
+\subsubsection{Texto del Experto}
+
+Creamos este carro único, para que sea la mejor forma de viajar a donde quieras. Por eso está diseñado con barras laterales contra impacto. Puede incluir frenos antibloqueo y bolsas de aire seguras. Tiene transmisión automática de 4 velocidades.
+
+\begin{table}
+  \centering
+  \tiny
+\begin{tabular}{|r|c|c|c|c|c|c|}
+   & \multicolumn{3}{c|}{Nuestro texto}     & \multicolumn{3}{c|}{Texto del experto}   \\\hline
+   & Reconocimiento & Memoria & Persuación & Reconocimiento & Memoria & Persuación \\\hline \hline
+
+1 &         1 &         1 &         0 &         1 &         1 &         1 \\
+2 &         0 &         0 &         1 &         1 &         0 &         0 \\
+3 &         0 &         0 &         1 &         1 &         1 &         0 \\
+4 &         0 &         0 &         1 &         0 &         0 &         0 \\
+5 &         0 &         0 &         1 &         0 &         0 &         0 \\
+6 &         0 &         0 &         1 &         0 &         0 &         0 \\
+7 &         1 &         1 &         1 &         1 &         0 &         0 \\
+8 &         1 &         0 &         1 &         0 &         0 &         0 \\
+9 &         1 &         1 &         0 &         1 &         0 &         1 \\
+10 &         1 &         1 &         1 &         0 &         0 &         0 \\
+11 &         1 &         1 &         0 &         1 &         1 &         1 \\
+12 &         0 &         0 &         0 &         1 &         0 &         1 \\
+13 &         1 &         0 &         0 &         0 &         0 &         1 \\
+14 &         1 &         0 &         1 &         0 &         0 &         0 \\
+15 &         1 &         0 &         0 &         0 &         0 &         1 \\
+16 &         0 &         0 &         1 &         1 &         0 &         0 \\
+17 &         1 &         0 &         0 &         0 &         0 &         1 \\
+18 &         0 &         0 &         1 &         1 &         1 &         0 \\
+19 &         0 &         0 &         0 &         0 &         0 &         1 \\
+20 &         1 &         0 &         1 &         0 &         0 &         0 \\
+21 &         1 &         0 &         1 &         0 &         0 &         0 \\
+22 &         1 &         0 &         0 &         1 &         0 &         1 \\
+23 &         1 &         1 &         0 &         1 &         0 &         1 \\
+24 &         1 &         0 &         1 &         1 &         1 &         0 \\
+25 &         1 &         0 &         1 &         1 &         1 &         0 \\
+26 &         0 &         0 &         1 &         0 &         0 &         0 \\
+27 &         1 &         0 &         1 &         1 &         1 &         0 \\
+28 &         1 &         0 &         1 &         0 &         0 &         0 \\
+29 &         1 &         1 &         0 &         0 &         0 &         1 \\
+30 &         1 &         1 &         1 &         1 &         1 &         0 
+
+\end{tabular}
+\end{table}
+
+
+%2
+
+\subsubsection{Nuestro Texto}
+
+Diseñamos este carro único, para ser la mejor forma de viajar con tus amigos. Por eso está fabricado con barras laterales contra accidentes. Puede incluir frenos inteligentes y bolsas de aire seguras. Tiene transmisión automática de 4 velocidades.
+
+\subsubsection{Texto del Experto}
+
+Creamos este carro único, para que sea la mejor forma de viajar a donde quieras. Por eso está diseñado con barras laterales contra impacto. Puede incluir frenos antibloqueo y bolsas de aire seguras. Tiene transmisión automática de 4 velocidades.
+
+\begin{table}
+  \centering
+  \tiny
+  \begin{tabular}{|r|c|c|c|c|c|c|}
+   & \multicolumn{3}{c|}{Nuestro texto}     & \multicolumn{3}{c|}{Texto del experto}   \\\hline
+   & Reconocimiento & Memoria & Persuación & Reconocimiento & Memoria & Persuación \\\hline \hline
+
+1 &         0 &         0 &         1 &         0 &         0 &         0 \\
+2 &         1 &         1 &         0 &         1 &         0 &         1 \\
+3 &         1 &         0 &         1 &         1 &         0 &         0 \\
+4 &         0 &         0 &         0 &         0 &         0 &         1 \\
+5 &         1 &         1 &         0 &         0 &         0 &         1 \\
+6 &         0 &         0 &         0 &         0 &         0 &         1 \\
+7 &         0 &         0 &         0 &         1 &         1 &         1 \\
+8 &         1 &         0 &         1 &         1 &         1 &         0 \\
+9 &         1 &         1 &         0 &         1 &         0 &         1 \\
+10 &         0 &         0 &         1 &         1 &         0 &         0 \\
+11 &         0 &         0 &         1 &         0 &         0 &         0 \\
+12 &         1 &         1 &         1 &         1 &         1 &         0 \\
+13 &         1 &         1 &         1 &         0 &         0 &         0 \\
+14 &         1 &         0 &         1 &         0 &         0 &         0 \\
+15 &         1 &         1 &         1 &         1 &         0 &         0 \\
+16 &         0 &         0 &         0 &         0 &         0 &         1 \\
+17 &         1 &         1 &         1 &         1 &         1 &         0 \\
+18 &         1 &         1 &         1 &         1 &         1 &         0 \\
+19 &         0 &         0 &         1 &         1 &         0 &         0 \\
+20 &         1 &         1 &         1 &         0 &         0 &         0 \\
+21 &         1 &         0 &         0 &         1 &         0 &         1 \\
+22 &         1 &         0 &         0 &         0 &         0 &         1 \\
+23 &         0 &         0 &         0 &         1 &         0 &         1 \\
+24 &         0 &         0 &         0 &         1 &         0 &         1 \\
+25 &         1 &         1 &         1 &         0 &         0 &         0 \\
+26 &         0 &         0 &         1 &         1 &         1 &         0 \\
+27 &         1 &         1 &         0 &         1 &         0 &         1 \\
+28 &         0 &         0 &         1 &         1 &         1 &         0 \\
+29 &         1 &         1 &         1 &         1 &         1 &         0 \\
+30 &         0 &         0 &         0 &         1 &         0 &         1 
+
+\end{tabular}
+\end{table}
+
+
+%3
+
+\subsubsection{Nuestro Texto}
+
+Diseñamos este carro único, para ser la mejor forma de viajar con tus amigos. Por eso está fabricado con barras laterales contra accidentes. Puede incluir frenos inteligentes y bolsas de aire seguras. Tiene transmisión automática de 4 velocidades.
+
+\subsubsection{Texto del Experto}
+
+Creamos este carro único, para que sea la mejor forma de viajar a donde quieras. Por eso está diseñado con barras laterales contra impacto. Puede incluir frenos antibloqueo y bolsas de aire seguras. Tiene transmisión automática de 4 velocidades.
+
+\begin{table}
+\centering
+\tiny
+\begin{tabular}{|r|c|c|c|c|c|c|}
+   & \multicolumn{3}{c|}{Nuestro texto}     & \multicolumn{3}{c|}{Texto del experto}   \\\hline
+   & Reconocimiento & Memoria & Persuación & Reconocimiento & Memoria & Persuación \\\hline \hline
+
+1 &         1 &         1 &         1 &         0 &         0 &         0 \\
+2 &         1 &         0 &         1 &         1 &         0 &         0 \\
+3 &         1 &         0 &         0 &         0 &         0 &         1 \\
+4 &         0 &         0 &         0 &         1 &         1 &         1 \\
+5 &         0 &         0 &         1 &         1 &         0 &         0 \\
+6 &         0 &         0 &         0 &         1 &         1 &         1 \\
+7 &         0 &         0 &         0 &         1 &         0 &         1 \\
+8 &         1 &         0 &         0 &         0 &         0 &         1 \\
+9 &         1 &         0 &         1 &         1 &         0 &         0 \\
+10 &         1 &         0 &         1 &         0 &         0 &         0 \\
+11 &         1 &         0 &         1 &         1 &         1 &         0 \\
+12 &         1 &         0 &         1 &         1 &         0 &         0 \\
+13 &         1 &         1 &         0 &         1 &         0 &         1 \\
+14 &         1 &         1 &         1 &         1 &         0 &         0 \\
+15 &         1 &         0 &         0 &         0 &         0 &         1 \\
+16 &         1 &         1 &         1 &         1 &         0 &         0 \\
+17 &         1 &         1 &         0 &         0 &         0 &         1 \\
+18 &         1 &         0 &         1 &         1 &         1 &         0 \\
+19 &         0 &         0 &         0 &         0 &         0 &         1 \\
+20 &         0 &         0 &         1 &         0 &         0 &         0 \\
+21 &         1 &         1 &         0 &         0 &         0 &         1 \\
+22 &         0 &         0 &         1 &         0 &         0 &         0 \\
+23 &         0 &         0 &         1 &         0 &         0 &         0 \\
+24 &         1 &         1 &         1 &         1 &         1 &         0 \\
+25 &         1 &         0 &         0 &         1 &         1 &         1 \\
+26 &         1 &         0 &         1 &         0 &         0 &         0 \\
+27 &         1 &         0 &         0 &         1 &         0 &         1 \\
+28 &         1 &         1 &         1 &         1 &         0 &         0 \\
+29 &         1 &         1 &         0 &         0 &         0 &         1 \\
+30 &         1 &         0 &         0 &         1 &         0 &         1 
+
+\end{tabular}
+\end{table}
+
+
+%4
+
+\subsubsection{Nuestro Texto}
+
+Diseñamos este carro único, para ser la mejor forma de viajar con tus amigos. Por eso está fabricado con barras laterales contra accidentes. Puede incluir frenos inteligentes y bolsas de aire seguras. Tiene transmisión automática de 4 velocidades.
+
+\subsubsection{Texto del Experto}
+
+Creamos este carro único, para que sea la mejor forma de viajar a donde quieras. Por eso está diseñado con barras laterales contra impacto. Puede incluir frenos antibloqueo y bolsas de aire seguras. Tiene transmisión automática de 4 velocidades.
+
+\begin{table}
+\centering
+\tiny
+\begin{tabular}{|r|c|c|c|c|c|c|}
+   & \multicolumn{3}{c|}{Nuestro texto}     & \multicolumn{3}{c|}{Texto del experto}   \\\hline
+   & Reconocimiento & Memoria & Persuación & Reconocimiento & Memoria & Persuación \\\hline \hline
+
+1 &         1 &         0 &         1 &         1 &         0 &         0 \\
+2 &         1 &         1 &         0 &         0 &         0 &         1 \\
+3 &         1 &         0 &         1 &         1 &         0 &         0 \\
+4 &         1 &         0 &         0 &         1 &         0 &         1 \\
+5 &         1 &         0 &         1 &         1 &         1 &         0 \\
+6 &         1 &         0 &         0 &         1 &         1 &         1 \\
+7 &         1 &         0 &         0 &         0 &         0 &         1 \\
+8 &         1 &         0 &         0 &         1 &         1 &         1 \\
+9 &         1 &         1 &         0 &         0 &         0 &         1 \\
+10 &         1 &         1 &         1 &         0 &         0 &         0 \\
+11 &         0 &         0 &         0 &         0 &         0 &         1 \\
+12 &         1 &         0 &         1 &         0 &         0 &         0 \\
+13 &         1 &         1 &         1 &         0 &         0 &         0 \\
+14 &         0 &         0 &         0 &         0 &         0 &         1 \\
+15 &         1 &         0 &         0 &         1 &         0 &         1 \\
+16 &         0 &         0 &         0 &         1 &         0 &         1 \\
+17 &         0 &         0 &         0 &         0 &         0 &         1 \\
+18 &         1 &         1 &         0 &         0 &         0 &         1 \\
+19 &         1 &         1 &         0 &         1 &         1 &         1 \\
+20 &         1 &         0 &         1 &         0 &         0 &         0 \\
+21 &         1 &         0 &         1 &         1 &         0 &         0 \\
+22 &         1 &         1 &         1 &         1 &         1 &         0 \\
+23 &         1 &         0 &         1 &         0 &         0 &         0 \\
+24 &         1 &         0 &         1 &         1 &         1 &         0 \\
+25 &         0 &         0 &         0 &         0 &         0 &         1 \\
+26 &         1 &         1 &         0 &         0 &         0 &         1 \\
+27 &         1 &         1 &         1 &         1 &         0 &         0 \\
+28 &         1 &         1 &         0 &         1 &         1 &         1 \\
+29 &         0 &         0 &         0 &         1 &         0 &         1 \\
+30 &         0 &         0 &         0 &         0 &         0 &         1 
+
+\end{tabular}
+\end{table}
+
+%5
+
+\subsubsection{Nuestro Texto}
+
+Diseñamos este carro único, para ser la mejor forma de viajar con tus amigos. Por eso está fabricado con barras laterales contra accidentes. Puede incluir frenos inteligentes y bolsas de aire seguras. Tiene transmisión automática de 4 velocidades.
+
+\subsubsection{Texto del Experto}
+
+Creamos este carro único, para que sea la mejor forma de viajar a donde quieras. Por eso está diseñado con barras laterales contra impacto. Puede incluir frenos antibloqueo y bolsas de aire seguras. Tiene transmisión automática de 4 velocidades.
+
+\begin{table}
+\centering
+\tiny
+\begin{tabular}{|r|c|c|c|c|c|c|}
+   & \multicolumn{3}{c|}{Nuestro texto}     & \multicolumn{3}{c|}{Texto del experto}   \\\hline
+   & Reconocimiento & Memoria & Persuación & Reconocimiento & Memoria & Persuación \\\hline \hline
+
+1 &         0 &         0 &         1 &         1 &         0 &         0 \\
+2 &         0 &         0 &         0 &         0 &         0 &         1 \\
+3 &         0 &         0 &         0 &         0 &         0 &         1 \\
+4 &         1 &         1 &         0 &         0 &         0 &         1 \\
+5 &         0 &         0 &         1 &         0 &         0 &         0 \\
+6 &         1 &         1 &         1 &         0 &         0 &         0 \\
+7 &         1 &         1 &         1 &         1 &         0 &         0 \\
+8 &         1 &         0 &         0 &         0 &         0 &         1 \\
+9 &         1 &         0 &         0 &         1 &         0 &         1 \\
+10 &         0 &         0 &         1 &         1 &         1 &         0 \\
+11 &         0 &         0 &         1 &         1 &         1 &         0 \\
+12 &         1 &         0 &         1 &         0 &         0 &         0 \\
+13 &         1 &         1 &         1 &         1 &         1 &         0 \\
+14 &         0 &         0 &         0 &         1 &         1 &         1 \\
+15 &         0 &         0 &         0 &         0 &         0 &         1 \\
+16 &         1 &         0 &         0 &         1 &         0 &         1 \\
+17 &         0 &         0 &         1 &         0 &         0 &         0 \\
+18 &         0 &         0 &         1 &         1 &         1 &         0 \\
+19 &         1 &         0 &         0 &         1 &         0 &         1 \\
+20 &         0 &         0 &         1 &         0 &         0 &         0 \\
+21 &         1 &         1 &         0 &         1 &         0 &         1 \\
+22 &         1 &         1 &         1 &         1 &         0 &         0 \\
+23 &         1 &         0 &         1 &         1 &         0 &         0 \\
+24 &         1 &         1 &         1 &         0 &         0 &         0 \\
+25 &         0 &         0 &         0 &         0 &         0 &         1 \\
+26 &         1 &         1 &         1 &         0 &         0 &         0 \\
+27 &         0 &         0 &         1 &         1 &         0 &         0 \\
+28 &         1 &         1 &         0 &         1 &         1 &         1 \\
+29 &         1 &         1 &         1 &         0 &         0 &         0 \\
+30 &         0 &         0 &         0 &         1 &         1 &         1 
+
+\end{tabular}
+\end{table}
+
+
+
+\subsection{Tablas de resultados del anuncio de la hamburguesa}
+
+%H1
+
+\subsubsection{Nuestro Texto}
+
+Jugosa carne de vacuno  a la parrilla, con crujiente tocino, queso amarillo  derretido con el calor de la carne. Entre la carne y el pan encontrarás verduras frescas como tomate, lechuga, cebolla y aderezo. Tienes que probarla será una experiencia única.
+
+\subsubsection{Texto del Experto}
+
+Exquisita carne de vacuno  cocinada a las brasas, con deliciosas rebanadas de tocino, queso amarillo suizo. Entre la carne y el pan encontrarás una deliciosa ensalada de tomate, lechuga, cebolla y aderezo. Tienes que probarla será una experiencia única.
+
+\begin{table}
+\centering
+\tiny
+\begin{tabular}{|r|c|c|c|c|c|c|}
+   & \multicolumn{3}{c|}{Nuestro texto}     & \multicolumn{3}{c|}{Texto del experto}   \\\hline
+   & Reconocimiento & Memoria & Persuación & Reconocimiento & Memoria & Persuación \\\hline \hline
+
+1 &         0 &         0 &         0 &         0 &         0 &         1 \\
+2 &         0 &         0 &         0 &         0 &         0 &         1 \\
+3 &         1 &         1 &         1 &         1 &         1 &         0 \\
+4 &         0 &         0 &         1 &         0 &         0 &         0 \\
+5 &         0 &         0 &         0 &         1 &         1 &         1 \\
+6 &         0 &         0 &         1 &         1 &         1 &         0 \\
+7 &         1 &         1 &         1 &         0 &         0 &         0 \\
+8 &         0 &         0 &         1 &         1 &         1 &         0 \\
+9 &         1 &         1 &         0 &         0 &         0 &         1 \\
+10 &         0 &         0 &         0 &         0 &         0 &         1 \\
+11 &         1 &         0 &         0 &         0 &         0 &         1 \\
+12 &         1 &         1 &         1 &         1 &         0 &         0 \\
+13 &         0 &         0 &         1 &         0 &         0 &         0 \\
+14 &         1 &         1 &         1 &         1 &         1 &         0 \\
+15 &         1 &         1 &         1 &         0 &         0 &         0 \\
+16 &         0 &         0 &         1 &         0 &         0 &         0 \\
+17 &         1 &         1 &         0 &         0 &         0 &         1 \\
+18 &         0 &         0 &         0 &         0 &         0 &         1 \\
+19 &         0 &         0 &         0 &         0 &         0 &         1 \\
+20 &         0 &         0 &         1 &         0 &         0 &         0 \\
+21 &         0 &         0 &         0 &         1 &         0 &         1 \\
+22 &         1 &         1 &         0 &         0 &         0 &         1 \\
+23 &         0 &         0 &         0 &         1 &         1 &         1 \\
+24 &         0 &         0 &         1 &         1 &         0 &         0 \\
+25 &         1 &         1 &         0 &         1 &         0 &         1 \\
+26 &         0 &         0 &         1 &         0 &         0 &         0 \\
+27 &         1 &         1 &         0 &         0 &         0 &         1 \\
+28 &         0 &         0 &         1 &         0 &         0 &         0 \\
+29 &         0 &         0 &         1 &         1 &         1 &         0 \\
+30 &         0 &         0 &         0 &         1 &         1 &         1 
+
+\end{tabular}
+\end{table}
+
+%H2
+
+\subsubsection{Nuestro Texto}
+
+Jugosa carne de vacuno  a la parrilla, con crujiente tocino, queso amarillo  derretido con el calor de la carne. Entre la carne y el pan encontrarás verduras frescas como tomate, lechuga, cebolla y aderezo. Tienes que probarla será una experiencia única.
+
+\subsubsection{Texto del Experto}
+
+Exquisita carne de vacuno  cocinada a las brasas, con deliciosas rebanadas de tocino, queso amarillo suizo. Entre la carne y el pan encontrarás una deliciosa ensalada de tomate, lechuga, cebolla y aderezo. Tienes que probarla será una experiencia única.
+
+\begin{table}
+\centering
+\tiny
+\begin{tabular}{|r|c|c|c|c|c|c|}
+   & \multicolumn{3}{c|}{Nuestro texto}     & \multicolumn{3}{c|}{Texto del experto}   \\\hline
+   & Reconocimiento & Memoria & Persuación & Reconocimiento & Memoria & Persuación \\\hline \hline
+
+1 &         1 &         1 &         1 &         0 &         0 &         0 \\
+2 &         0 &         0 &         1 &         0 &         0 &         0 \\
+3 &         1 &         0 &         0 &         0 &         0 &         1 \\
+4 &         1 &         1 &         1 &         1 &         1 &         0 \\
+5 &         0 &         0 &         0 &         1 &         1 &         1 \\
+6 &         1 &         1 &         1 &         1 &         1 &         0 \\
+7 &         0 &         0 &         1 &         1 &         1 &         0 \\
+8 &         0 &         0 &         1 &         0 &         0 &         0 \\
+9 &         0 &         0 &         0 &         0 &         0 &         1 \\
+10 &         0 &         0 &         1 &         0 &         0 &         0 \\
+11 &         0 &         0 &         0 &         0 &         0 &         1 \\
+12 &         1 &         1 &         1 &         0 &         0 &         0 \\
+13 &         1 &         0 &         1 &         1 &         1 &         0 \\
+14 &         1 &         0 &         0 &         1 &         1 &         1 \\
+15 &         0 &         0 &         0 &         1 &         0 &         1 \\
+16 &         1 &         1 &         1 &         1 &         1 &         0 \\
+17 &         1 &         1 &         0 &         0 &         0 &         1 \\
+18 &         0 &         0 &         1 &         0 &         0 &         0 \\
+19 &         0 &         0 &         1 &         0 &         0 &         0 \\
+20 &         0 &         0 &         1 &         0 &         0 &         0 \\
+21 &         0 &         0 &         1 &         0 &         0 &         0 \\
+22 &         0 &         0 &         1 &         1 &         1 &         0 \\
+23 &         1 &         0 &         0 &         0 &         0 &         1 \\
+24 &         0 &         0 &         1 &         0 &         0 &         0 \\
+25 &         0 &         0 &         1 &         1 &         1 &         0 \\
+26 &         0 &         0 &         0 &         1 &         1 &         1 \\
+27 &         1 &         1 &         1 &         1 &         0 &         0 \\
+28 &         0 &         0 &         0 &         0 &         0 &         1 \\
+29 &         1 &         1 &         0 &         1 &         1 &         1 \\
+30 &         1 &         0 &         1 &         0 &         0 &         0 
+
+\end{tabular}
+\end{table}
+
+
+%H3
+
+\subsubsection{Nuestro Texto}
+
+Jugosa carne de vacuno  a la parrilla, con crujiente tocino, queso amarillo  derretido con el calor de la carne. Entre la carne y el pan encontrarás verduras frescas como tomate, lechuga, cebolla y aderezo. Tienes que probarla será una experiencia única.
+
+\subsubsection{Texto del Experto}
+
+Exquisita carne de vacuno  cocinada a las brasas, con deliciosas rebanadas de tocino, queso amarillo suizo. Entre la carne y el pan encontrarás una deliciosa ensalada de tomate, lechuga, cebolla y aderezo. Tienes que probarla será una experiencia única.
+
+\begin{table}
+\centering
+\tiny
+\begin{tabular}{|r|c|c|c|c|c|c|}
+   & \multicolumn{3}{c|}{Nuestro texto}     & \multicolumn{3}{c|}{Texto del experto}   \\\hline
+   & Reconocimiento & Memoria & Persuación & Reconocimiento & Memoria & Persuación \\\hline \hline
+
+1 &         1 &         1 &         0 &         0 &         0 &         1 \\
+2 &         0 &         0 &         1 &         1 &         0 &         0 \\
+3 &         0 &         0 &         0 &         0 &         0 &         1 \\
+4 &         0 &         0 &         1 &         0 &         0 &         0 \\
+5 &         0 &         0 &         0 &         1 &         0 &         1 \\
+6 &         1 &         1 &         0 &         0 &         0 &         1 \\
+7 &         0 &         0 &         1 &         0 &         0 &         0 \\
+8 &         1 &         1 &         1 &         1 &         1 &         0 \\
+9 &         0 &         0 &         1 &         1 &         1 &         0 \\
+10 &         0 &         0 &         1 &         0 &         0 &         0 \\
+11 &         1 &         1 &         1 &         1 &         0 &         0 \\
+12 &         0 &         0 &         0 &         0 &         0 &         1 \\
+13 &         1 &         1 &         1 &         1 &         0 &         0 \\
+14 &         1 &         1 &         0 &         0 &         0 &         1 \\
+15 &         0 &         0 &         1 &         1 &         0 &         0 \\
+16 &         0 &         0 &         0 &         1 &         0 &         1 \\
+17 &         0 &         0 &         0 &         0 &         0 &         1 \\
+18 &         1 &         1 &         0 &         1 &         0 &         1 \\
+19 &         1 &         1 &         0 &         0 &         0 &         1 \\
+20 &         0 &         0 &         1 &         0 &         0 &         0 \\
+21 &         0 &         0 &         1 &         1 &         1 &         0 \\
+22 &         0 &         0 &         1 &         0 &         0 &         0 \\
+23 &         0 &         0 &         1 &         1 &         1 &         0 \\
+24 &         0 &         0 &         0 &         0 &         0 &         1 \\
+25 &         1 &         1 &         0 &         0 &         0 &         1 \\
+26 &         0 &         0 &         0 &         1 &         0 &         1 \\
+27 &         0 &         0 &         1 &         0 &         0 &         0 \\
+28 &         1 &         0 &         0 &         0 &         0 &         1 \\
+29 &         0 &         0 &         0 &         0 &         0 &         1 \\
+30 &         0 &         0 &         0 &         1 &         1 &         1 
+
+\end{tabular}
+\end{table}
+
+
+%H4
+
+\subsubsection{Nuestro Texto}
+
+Jugosa carne de vacuno  a la parrilla, con crujiente tocino, queso amarillo  derretido con el calor de la carne. Entre la carne y el pan encontrarás verduras frescas como tomate, lechuga, cebolla y aderezo. Tienes que probarla será una experiencia única.
+
+\subsubsection{Texto del Experto}
+
+Exquisita carne de vacuno  cocinada a las brasas, con deliciosas rebanadas de tocino, queso amarillo suizo. Entre la carne y el pan encontrarás una deliciosa ensalada de tomate, lechuga, cebolla y aderezo. Tienes que probarla será una experiencia única.
+
+\begin{table}
+\centering
+\tiny
+\begin{tabular}{|r|c|c|c|c|c|c|}
+   & \multicolumn{3}{c|}{Nuestro texto}     & \multicolumn{3}{c|}{Texto del experto}   \\\hline
+   & Reconocimiento & Memoria & Persuación & Reconocimiento & Memoria & Persuación \\\hline \hline
+
+1 &         1 &         0 &         0 &         1 &         1 &         1 \\
+2 &         0 &         0 &         1 &         1 &         0 &         0 \\
+3 &         0 &         0 &         1 &         0 &         0 &         0 \\
+4 &         1 &         1 &         0 &         1 &         0 &         1 \\
+5 &         0 &         0 &         0 &         0 &         0 &         1 \\
+6 &         0 &         0 &         1 &         0 &         0 &         0 \\
+7 &         1 &         1 &         0 &         0 &         0 &         1 \\
+8 &         1 &         0 &         0 &         1 &         0 &         1 \\
+9 &         0 &         0 &         1 &         0 &         0 &         0 \\
+10 &         1 &         1 &         0 &         1 &         0 &         1 \\
+11 &         0 &         0 &         1 &         0 &         0 &         0 \\
+12 &         1 &         1 &         0 &         1 &         0 &         1 \\
+13 &         1 &         0 &         1 &         0 &         0 &         0 \\
+14 &         0 &         0 &         1 &         0 &         0 &         0 \\
+15 &         0 &         0 &         0 &         1 &         0 &         1 \\
+16 &         1 &         0 &         0 &         1 &         0 &         1 \\
+17 &         0 &         0 &         0 &         1 &         1 &         1 \\
+18 &         1 &         1 &         1 &         1 &         0 &         0 \\
+19 &         0 &         0 &         0 &         1 &         0 &         1 \\
+20 &         1 &         0 &         1 &         1 &         0 &         0 \\
+21 &         0 &         0 &         1 &         1 &         1 &         0 \\
+22 &         1 &         1 &         1 &         0 &         0 &         0 \\
+23 &         0 &         0 &         1 &         1 &         1 &         0 \\
+24 &         1 &         1 &         1 &         0 &         0 &         0 \\
+25 &         0 &         0 &         0 &         0 &         0 &         1 \\
+26 &         0 &         0 &         0 &         0 &         0 &         1 \\
+27 &         0 &         0 &         1 &         0 &         0 &         0 \\
+28 &         0 &         0 &         1 &         1 &         0 &         0 \\
+29 &         0 &         0 &         1 &         1 &         0 &         0 \\
+30 &         0 &         0 &         1 &         0 &         0 &         0 
+
+\end{tabular}
+\end{table}
+
+
+%H5
+
+\subsubsection{Nuestro Texto}
+
+Jugosa carne de vacuno  a la parrilla, con crujiente tocino, queso amarillo  derretido con el calor de la carne. Entre la carne y el pan encontrarás verduras frescas como tomate, lechuga, cebolla y aderezo. Tienes que probarla será una experiencia única.
+
+\subsubsection{Texto del Experto}
+
+Exquisita carne de vacuno  cocinada a las brasas, con deliciosas rebanadas de tocino, queso amarillo suizo. Entre la carne y el pan encontrarás una deliciosa ensalada de tomate, lechuga, cebolla y aderezo. Tienes que probarla será una experiencia única.
+
+\begin{table}
+\centering
+\tiny
+\begin{tabular}{|r|c|c|c|c|c|c|}
+   & \multicolumn{3}{c|}{Nuestro texto}     & \multicolumn{3}{c|}{Texto del experto}   \\\hline
+   & Reconocimiento & Memoria & Persuación & Reconocimiento & Memoria & Persuación \\\hline \hline
+
+1 &         1 &         1 &         1 &         1 &         0 &         0 \\
+2 &         0 &         0 &         1 &         0 &         0 &         0 \\
+3 &         0 &         0 &         0 &         1 &         1 &         1 \\
+4 &         1 &         0 &         1 &         1 &         0 &         0 \\
+5 &         0 &         0 &         1 &         1 &         1 &         0 \\
+6 &         1 &         0 &         1 &         0 &         0 &         0 \\
+7 &         1 &         1 &         0 &         1 &         1 &         1 \\
+8 &         0 &         0 &         0 &         0 &         0 &         1 \\
+9 &         1 &         1 &         0 &         0 &         0 &         1 \\
+10 &         0 &         0 &         1 &         1 &         0 &         0 \\
+11 &         0 &         0 &         0 &         0 &         0 &         1 \\
+12 &         1 &         1 &         0 &         1 &         0 &         1 \\
+13 &         1 &         0 &         1 &         0 &         0 &         0 \\
+14 &         1 &         1 &         1 &         1 &         0 &         0 \\
+15 &         1 &         0 &         1 &         0 &         0 &         0 \\
+16 &         1 &         0 &         0 &         0 &         0 &         1 \\
+17 &         0 &         0 &         1 &         1 &         1 &         0 \\
+18 &         0 &         0 &         1 &         1 &         0 &         0 \\
+19 &         0 &         0 &         0 &         0 &         0 &         1 \\
+20 &         0 &         0 &         1 &         1 &         0 &         0 \\
+21 &         0 &         0 &         1 &         0 &         0 &         0 \\
+22 &         1 &         0 &         0 &         0 &         0 &         1 \\
+23 &         0 &         0 &         1 &         0 &         0 &         0 \\
+24 &         1 &         1 &         0 &         1 &         0 &         1 \\
+25 &         0 &         0 &         1 &         0 &         0 &         0 \\
+26 &         0 &         0 &         1 &         1 &         0 &         0 \\
+27 &         1 &         0 &         1 &         0 &         0 &         0 \\
+28 &         0 &         0 &         1 &         1 &         0 &         0 \\
+29 &         0 &         0 &         1 &         1 &         1 &         0 \\
+30 &         1 &         1 &         0 &         0 &         0 &         1 
+
+\end{tabular}
 \end{table}

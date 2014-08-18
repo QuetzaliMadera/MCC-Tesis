@@ -1,33 +1,62 @@
 \select@language {spanish}
-\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{13}
-\contentsline {section}{\numberline {1.1}Descripci\IeC {\'o}n de la investigaci\IeC {\'o}n}{14}
-\contentsline {section}{\numberline {1.2}Objetivo General de la Investigaci\IeC {\'o}n}{14}
-\contentsline {section}{\numberline {1.3}Espec\IeC {\'\i }ficos de la Investigaci\IeC {\'o}n}{15}
-\contentsline {section}{\numberline {1.4}Estructura del Documento de Tesis}{15}
-\contentsline {chapter}{\numberline {2}Descripci\IeC {\'o}n del problema}{17}
-\contentsline {section}{\numberline {2.1}Soluciones Existentes Actualmente}{17}
-\contentsline {subsection}{\numberline {2.1.1}Soluci\IeC {\'o}n Propuesta}{18}
-\contentsline {section}{\numberline {2.2}Justificacion}{19}
-\contentsline {chapter}{\numberline {3}Conceptos B\IeC {\'a}sicos}{21}
-\contentsline {section}{\numberline {3.1}Publicidad en internet}{21}
-\contentsline {section}{\numberline {3.2}Article spinning}{21}
-\contentsline {section}{\numberline {3.3}Algoritmos Evolutivos}{22}
-\contentsline {subsection}{\numberline {3.3.1}Algoritmos Gen\IeC {\'e}ticos}{23}
-\contentsline {subsection}{\numberline {3.3.2}Computaci\IeC {\'o}n Evolutiva Interactiva}{23}
-\contentsline {section}{\numberline {3.4}EvoSpace}{25}
-\contentsline {chapter}{\numberline {4}Antecedentes}{27}
-\contentsline {chapter}{\numberline {5}Arquitectura Propuesta}{29}
-\contentsline {section}{\numberline {5.1}Formato del art\IeC {\'\i }culo}{29}
-\contentsline {section}{\numberline {5.2}Obtimizacion del texto}{29}
-\contentsline {chapter}{\numberline {6}Adaptaci\IeC {\'o}n de la Plataforma}{33}
-\contentsline {section}{\numberline {6.1}Implementacion de EvoSpace-Interactivo}{33}
-\contentsline {subsection}{\numberline {6.1.1}Configuraci\IeC {\'o}n del Sistema}{33}
-\contentsline {section}{\numberline {6.2}Interfaz Gr\IeC {\'a}fica}{35}
-\contentsline {section}{\numberline {6.3}Eficiencia de un Anuncio Publicitario}{36}
-\contentsline {chapter}{\numberline {7}Evaluaci\IeC {\'o}n Experimental}{37}
-\contentsline {section}{\numberline {7.1}El M\IeC {\'e}todo de Evaluaci\IeC {\'o}n}{37}
-\contentsline {section}{\numberline {7.2}Resultados}{38}
-\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{41}
-\contentsline {section}{\numberline {8.1}Conclusiones}{41}
-\contentsline {section}{\numberline {8.2}Trabajo Futuro}{41}
-\contentsline {chapter}{\numberline {A} }{45}
+\contentsline {chapter}{\numberline {1}Introducción}{13}
+\contentsline {section}{\numberline {1.1}Descripción de la investigación}{14}
+\contentsline {section}{\numberline {1.2}Objetivo General de la Investigación}{15}
+\contentsline {section}{\numberline {1.3}Específicos de la Investigación}{16}
+\contentsline {section}{\numberline {1.4}Estructura del Documento de Tesis}{17}
+\contentsline {chapter}{\numberline {2}Descripción del problema}{19}
+\contentsline {section}{\numberline {2.1}Soluciones Existentes Actualmente}{20}
+\contentsline {subsection}{\numberline {2.1.1}Solución Propuesta}{21}
+\contentsline {section}{\numberline {2.2}Justificacion}{22}
+\contentsline {chapter}{\numberline {3}Conceptos Básicos}{23}
+\contentsline {section}{\numberline {3.1}Publicidad en internet}{24}
+\contentsline {section}{\numberline {3.2}Article spinning}{25}
+\contentsline {section}{\numberline {3.3}Algoritmos Evolutivos}{26}
+\contentsline {subsection}{\numberline {3.3.1}Algoritmos Genéticos}{27}
+\contentsline {subsection}{\numberline {3.3.2}Computación Evolutiva Interactiva}{29}
+\contentsline {section}{\numberline {3.4}EvoSpace}{30}
+\contentsline {chapter}{\numberline {4}Antecedentes}{31}
+\contentsline {section}{\numberline {4.1}Optimización del Contenido en Multimedia}{32}
+\contentsline {subsection}{\numberline {4.1.1}Imágenes}{32}
+\contentsline {section}{\numberline {4.2}Publicidad Contextual}{39}
+\contentsline {section}{\numberline {4.3}Optimización del Posicionamiento del Anuncio}{42}
+\contentsline {section}{\numberline {4.4}Optimización del Tipo de Anuncio}{43}
+\contentsline {section}{\numberline {4.5}Recomendación de Anuncios Publicitarios}{44}
+\contentsline {chapter}{\numberline {5}Arquitectura Propuesta}{45}
+\contentsline {section}{\numberline {5.1}Formato del artículo}{45}
+\contentsline {section}{\numberline {5.2}Optimizacion del texto}{47}
+\contentsline {chapter}{\numberline {6}Adaptación de la Plataforma}{49}
+\contentsline {section}{\numberline {6.1}Implementacion de EvoSpace-Interactivo}{49}
+\contentsline {subsection}{\numberline {6.1.1}Configuración del Sistema}{50}
+\contentsline {section}{\numberline {6.2}Interfaz Gráfica}{52}
+\contentsline {section}{\numberline {6.3}Eficiencia de un Anuncio Publicitario}{53}
+\contentsline {chapter}{\numberline {7}Evaluación Experimental}{55}
+\contentsline {section}{\numberline {7.1}El Método de Evaluación}{56}
+\contentsline {section}{\numberline {7.2}Resultados}{58}
+\contentsline {subsection}{\numberline {7.2.1}Tablas de resultados del anuncio del automóvil}{59}
+\contentsline {subsubsection}{Nuestro Texto}{59}
+\contentsline {subsubsection}{Texto del Experto}{59}
+\contentsline {subsubsection}{Nuestro Texto}{59}
+\contentsline {subsubsection}{Texto del Experto}{60}
+\contentsline {subsubsection}{Nuestro Texto}{60}
+\contentsline {subsubsection}{Texto del Experto}{60}
+\contentsline {subsubsection}{Nuestro Texto}{61}
+\contentsline {subsubsection}{Texto del Experto}{61}
+\contentsline {subsubsection}{Nuestro Texto}{61}
+\contentsline {subsubsection}{Texto del Experto}{62}
+\contentsline {subsection}{\numberline {7.2.2}Tablas de resultados del anuncio de la hamburguesa}{62}
+\contentsline {subsubsection}{Nuestro Texto}{62}
+\contentsline {subsubsection}{Texto del Experto}{62}
+\contentsline {subsubsection}{Nuestro Texto}{64}
+\contentsline {subsubsection}{Texto del Experto}{64}
+\contentsline {subsubsection}{Nuestro Texto}{64}
+\contentsline {subsubsection}{Texto del Experto}{65}
+\contentsline {subsubsection}{Nuestro Texto}{65}
+\contentsline {subsubsection}{Texto del Experto}{65}
+\contentsline {subsubsection}{Nuestro Texto}{66}
+\contentsline {subsubsection}{Texto del Experto}{66}
+\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{69}
+\contentsline {section}{\numberline {8.1}Conclusiones}{69}
+\contentsline {section}{\numberline {8.2}Trabajo Futuro}{70}
+\contentsline {chapter}{\numberline {A} }{71}
+\contentsline {chapter}{\numberline {B}Figures}{75}
